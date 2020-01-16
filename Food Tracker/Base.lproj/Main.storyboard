@@ -36,6 +36,7 @@
                                 </subviews>
                                 <constraints>
                                     <constraint firstAttribute="trailing" secondItem="PyD-lc-CSz" secondAttribute="trailing" id="9L8-22-f2m"/>
+                                    <constraint firstItem="q1B-Et-Dv2" firstAttribute="leading" secondItem="QHQ-Gu-CV0" secondAttribute="leading" constant="10" id="kNS-w7-3r2"/>
                                 </constraints>
                             </stackView>
                         </subviews>
@@ -47,6 +48,11 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="mealNameLabel" destination="q1B-Et-Dv2" id="v3u-FU-HmO"/>
+                        <outlet property="nameTextField" destination="PyD-lc-CSz" id="aRx-tM-fF0"/>
+                        <outlet property="setDefaultLabelText" destination="Ago-p0-goA" id="v79-w9-J38"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
